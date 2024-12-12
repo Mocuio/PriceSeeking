@@ -1,0 +1,94 @@
+
+
+.main {
+  display: block;
+  flex-direction: column;
+  background: linear-gradient(120deg,black,#283546);
+  height: 100%;
+  width: 100%;
+  justify-items: center;
+  align-content: center;
+
+}
+
+.table-princial {
+  display: block;
+  position: relative;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 525px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+  display: block;
+  padding:0;
+}
+
+.button-delete {
+  width: 100px;
+  height: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  background-color: #ff9900;
+  transition: 0s background-color;
+  border: inherit;
+  padding: 0;
+  position: relative;
+  top: -21px;
+}
+.button-delete:hover {
+  background-color: #ff6a00;
+  transition: 0.5s background-color;
+}
+
+.button-search{
+  width: 100px;
+  height: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  background-color:#ff9900;
+  transition: 0s background-color;
+  border: inherit;
+  padding: 0;
+  position: relative;
+  top:-21px;
+}
+.button-search:hover {
+  background-color: #ff6a00;
+  transition: 0.5s background-color;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 524px;
+  top:10px;
+  gap:5px;
+}
+
+.mat-mdc-form-field-subscript-wrapper {
+  box-sizing: border-box;
+  position: absolute;
+  display: block
+}
+.mat-mdc-form-field-subscript-wrapper {
+  width: 0;
+  height: 0;
+  position:absolute;
+}
+
+.title {
+  font-size: 100px;
+  display: flex;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top:-100px;
+  margin-bottom:25px;
+}

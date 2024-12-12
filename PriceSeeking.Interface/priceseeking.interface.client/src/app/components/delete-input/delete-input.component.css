@@ -1,0 +1,38 @@
+* {
+    color:white;
+}
+
+.input {
+  width: 480px;
+  height: 60px;
+  padding-left: 40px;
+  color:black;
+  font-size:14px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color:black;
+  background-color: #ff9900;
+  border: none;
+  transition: 0s background-color;
+  position: relative;
+  top: 1.4px;
+}
+
+  button:hover {
+    background-color: #ff6a00;
+    transition: 0.5s background-color;
+  }
+
+.button-div {
+  width: 100%;
+  display:flex;
+  display:flex;
+  flex-direction:row;
+  align-content:end;
+  justify-content:end;
+}
+
+

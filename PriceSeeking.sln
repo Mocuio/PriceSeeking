@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceSeeking", "PriceSeeking\PriceSeeking.csproj", "{9BBCAF07-3AAE-4833-B783-6A2A4501D177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceSeeking.Interface.Server", "PriceSeeking.Interface\PriceSeeking.Interface.Server\PriceSeeking.Interface.Server.csproj", "{32619A49-F31E-43A7-8B09-C6969844BD2A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "priceseeking.interface.client", "PriceSeeking.Interface\priceseeking.interface.client\priceseeking.interface.client.esproj", "{3CCCAA61-08FD-4A9C-A6A7-1B245024E4EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BBCAF07-3AAE-4833-B783-6A2A4501D177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBCAF07-3AAE-4833-B783-6A2A4501D177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBCAF07-3AAE-4833-B783-6A2A4501D177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBCAF07-3AAE-4833-B783-6A2A4501D177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32619A49-F31E-43A7-8B09-C6969844BD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32619A49-F31E-43A7-8B09-C6969844BD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32619A49-F31E-43A7-8B09-C6969844BD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32619A49-F31E-43A7-8B09-C6969844BD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCCAA61-08FD-4A9C-A6A7-1B245024E4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCCAA61-08FD-4A9C-A6A7-1B245024E4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCCAA61-08FD-4A9C-A6A7-1B245024E4EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3CCCAA61-08FD-4A9C-A6A7-1B245024E4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCCAA61-08FD-4A9C-A6A7-1B245024E4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCCAA61-08FD-4A9C-A6A7-1B245024E4EC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3041C5D-7F33-49CD-8DA4-E909B422E63D}
+	EndGlobalSection
+EndGlobal
